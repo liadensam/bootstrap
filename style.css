@@ -1,0 +1,25 @@
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+.floating {
+  float: right;
+}
+
+.testimonial-slider .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  background-color: #fbff01;
+  border-radius: 100%;
+}
+.testimonial-slider {
+  padding: 10px 0px 40px;
+}
+
+@media (min-width: 768px) {
+  .newsletter-input {
+    width: 50%;
+  }
+}
